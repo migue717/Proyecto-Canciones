@@ -9,6 +9,7 @@ html{
 body {
     background-image: url(../canciones.jpg);
     background-size: cover;
+    background-position: center;
     font-family: 'Montserrat', sans-serif;
     min-height: 100%;
 }
