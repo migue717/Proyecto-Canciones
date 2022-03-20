@@ -23,7 +23,9 @@ class API {
 
                     // Resultado
                     UI.divResultado.textContent = lyrics;
+                    UI.divResultado.classList.add('text-light', 'bg-dark');
                     UI.headingResultado.innerHTML = `<b>Artista: </b>${this.artista}<b><br>Canción: </b>${this.cancion}`;
+                    UI.headingResultado.classList.add('text-light', 'bg-dark');
                     
                 } else {
                     UI.limpiarHTML();

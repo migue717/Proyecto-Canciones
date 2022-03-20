@@ -8,6 +8,7 @@ html{
 
 body {
     background-image: url(../canciones.jpg);
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
     min-height: 100%;
 }
@@ -20,7 +21,7 @@ h2 {
 }
 
 .contenido {
-    background-color: white;
+    
     max-width: 1100px;
     margin:  0 auto;
     height: 100%;
